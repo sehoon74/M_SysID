@@ -1,4 +1,4 @@
-#include "adc.h"
+#include "adc.h" 
 
 int AD_set() {
     outb(0x00,AD_IO+0x01); // single end input
